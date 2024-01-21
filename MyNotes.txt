@@ -1,0 +1,24 @@
+I built a pizza tracker with Laravel, React, and Inertia _ Full Stack Tutorial-
+03:41, 27:00, 33:33,
+
+composer create-project laravel/laravel dices-pizza
+cd dices-pizza
+php artisan migrate
+composer require laravel/breeze --dev  # laravel starter kit with breeze
+php artisan breeze:install  # Note! Select ‘react with inertia’ to scaffold React with Inertia on Laravel
+php artisan serve  # terminal 1
+php run dev # terminal 2
+
+php artisan make:model Pizza -m
+php artisan make:factory PizzaFactory
+php artisan db:seed
+php artisan make:controller PizzaController
+php artisan make:controller PublicPizzaController
+
+https://www.youtube.com/watch?v=hWFP9DeB7KA
+
+I wanted to see if I could build something that worked like the Domino's pizza tracker, and I think I got pretty close!
+
+Using Laravel, React, Inertia, and Tailwind, we'll put together a full stack application that features a live-updating pizza tracker and dashboard to manage orders. Let's get cooking!
+
+
